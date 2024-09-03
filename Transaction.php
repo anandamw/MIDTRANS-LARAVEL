@@ -15,7 +15,7 @@ class Transaction extends Model
         'email',
         'phone',
         'amount',
-        // 'status',
+        'status',
         'payment_response',
     ];
 

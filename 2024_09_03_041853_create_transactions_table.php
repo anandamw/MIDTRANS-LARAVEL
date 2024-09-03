@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('phone');
             $table->integer('amount');
-            // $table->enum('status', ['pending', 'success', 'failed']);
+            $table->enum('status', ['pending', 'success', 'failed']);
             $table->text('payment_response')->nullable();
             $table->timestamps();
         });
